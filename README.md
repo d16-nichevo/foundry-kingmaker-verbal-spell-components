@@ -13,11 +13,13 @@ I thought this could be fun to bring to my TTRPG games in Foundry. This can suit
 
 # Installation
 
-Installation is easy. See [here], and read about "Installing New Modules" and "Installing via the Manifest URL".
+Installation is easy. See [here](https://foundryvtt.com/article/modules/), and read about "Installing New Modules" and "Installing via the Manifest URL".
 
 The manifest URL is:
 
-* `https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/releases/latest/download/module.json`
+```
+https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/releases/latest/download/module.json
+```
 
 Make sure you also enable the module in your game! See "Activating Modules" [here](https://foundryvtt.com/article/modules/).
 
@@ -38,7 +40,7 @@ Click one of the buttons to play a sound.
 Note that:
 
 * The top three rows are for male-sounding voices. The bottom three rows are for female-sounding voices.
-* For each combination of tradition, school, and voice-type there are three "intensity levels". In the game, the intensity corresponds with the level of the spell being cast.
+* For each combination of [tradition](https://aonprd.com/Rules.aspx?ID=202), [school](https://aonprd.com/Rules.aspx?ID=214), and voice-type there are three "intensity levels". In the game, the intensity corresponds with the level of the spell being cast.
 * For each combination of tradition, school, voice-type and intensity there are a handful of different sounds. One is picked at random.
 * If you want a better idea of what they're saying, see [here](https://www.reddit.com/r/Pathfinder_Kingmaker/comments/gbh5yr/comment/fp98a35/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1).
 
@@ -58,7 +60,7 @@ This isn't necessary to know to use this module. It's mainly in case any other d
    * Open `SoundbanksInfo.xml` in the directory mentioned in step 2 above.
    * Look for clues in the `ShortName` or `Path` elements. For instance, to find verbal components, I looked for "Chant".
    * Then find the corresponding `File Id`, for example `File Id="10968175"`. That's the filename of the `wem` file.
-   * I used Notepad++ to whittle down to the lines I wanted, then create a batch file that would mass-rename to a more useful filename, as seen [here](https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/tree/main/sounds).
+   * I used [Notepad++](https://notepad-plus-plus.org/) to whittle down to the lines I wanted, then created a batch file that would mass-rename to a more useful filename, as seen [here](https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/tree/main/sounds).
 1. If you are indeed interested in chants...
    * The `ShortName` tells you a lot already: `Arcane_Male_High_11` tells you it's the arcane tradition, a male-sounding voice, and a "high intensity" casting.
      * The `11` tells you the spell's school. A number corresponds with a school: all sounds ending in `11` are Abjuration, for example. Schools have several numbers (Abjuration is `11` and `12` for example. I kept the numbers on my filenames so see [here](https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/tree/main/sounds) for easy reference.
