@@ -23,13 +23,23 @@ https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/release
 
 Make sure you also enable the module in your game! See "Activating Modules" [here](https://foundryvtt.com/article/modules/).
 
-# Usage
+# Setup
 
 After installing and enabling, you will see two new [Compendium Packs](https://foundryvtt.com/article/compendium/) labelled "Kingmaker Verbal Spell Components".
 
-One contains a [Playlist](https://foundryvtt.com/article/playlists/) that you can import.
+## Macro
 
-More usefully, the other contains a [macro](https://foundryvtt.com/article/macros/). You can drag and drop this macro to your macro hotbar (instructions [here](https://foundryvtt.com/article/macros/)).
+In your compendia, you will see a [macro](https://foundryvtt.com/article/macros/). You can drag and drop this macro to your macro hotbar (instructions [here](https://foundryvtt.com/article/macros/)).
+
+## Playlist
+
+In your compendia, you will see a [Playlist](https://foundryvtt.com/article/playlists/). You can import this if you wish, to get access to these sounds using the Foundry Playlist interface.
+
+## Player Access
+
+By default, your players will not see these compendia items. To correct this, see [here](https://foundryvtt.com/article/compendium/); look for "Compendium Context Menu Options".
+
+# Setup
 
 When clicking on this macro you will be presented with this dialog (or something similar, it may have been updated since):
 
