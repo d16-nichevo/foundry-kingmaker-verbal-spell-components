@@ -29,7 +29,7 @@ After installing and enabling, you will see two new [Compendium Packs](https://f
 
 ## Macro
 
-In your compendia, you will see a [macro](https://foundryvtt.com/article/macros/). You can drag and drop this macro to your macro hotbar (instructions [here](https://foundryvtt.com/article/macros/)).
+In your compendia, you will see a [Macro](https://foundryvtt.com/article/macros/). You can drag and drop this macro to your macro hotbar (instructions [here](https://foundryvtt.com/article/macros/)).
 
 ## Playlist
 
@@ -39,7 +39,7 @@ In your compendia, you will see a [Playlist](https://foundryvtt.com/article/play
 
 By default, your players will not see these compendia items. To correct this, see [here](https://foundryvtt.com/article/compendium/); look for "Compendium Context Menu Options".
 
-# Setup
+# Usage
 
 When clicking on this macro you will be presented with this dialog (or something similar, it may have been updated since):
 
