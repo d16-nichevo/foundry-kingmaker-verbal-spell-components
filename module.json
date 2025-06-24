@@ -1,9 +1,9 @@
 {
   "id": "kingmaker-verbal-spell-components",
   "title": "Kingmaker Verbal Spell Components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest": "https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/releases/latest/download/module.json",
-  "download": "https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/releases/download/1.0.1/module.zip",
+  "download": "https://github.com/d16-nichevo/foundry-kingmaker-verbal-spell-components/releases/download/1.0.2/module.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
